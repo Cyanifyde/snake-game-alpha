@@ -1,0 +1,80 @@
+html {
+  font-size: 5px;
+}
+
+header {
+  text-align: center;
+}
+main {  
+  margin: 0 ;
+  max-width: 1000rem;
+}
+h1 {
+  font-size: 25px;
+  font-family: Arial;
+  display: flex;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+  margin: 0 ;
+}
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  font-family: Arial;
+  color: crimson;
+  background-color: white;
+  border-radius: 5%;
+  width: 37rem;
+  height: 5rem;
+}
+.score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  font-family: Arial;
+  color: crimson;
+  background-color: white;
+  border-radius: 5%;
+  width: 37rem;
+  height: 5rem;
+}
+.time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  font-family: Arial;
+  color: crimson;
+  background-color: white;
+  border-radius: 5%;
+  width: 37rem;
+  height: 5rem;
+}
+.speed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  font-family: Arial;
+  color: crimson;
+  background-color: white;
+  border-radius: 5%;
+  width: 37rem;
+  height: 5rem;
+}
+.size {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  font-family: Arial;
+  color: crimson;
+  background-color: white;
+  border-radius: 5%;
+  width: 37rem;
+  height: 5rem;
+}
