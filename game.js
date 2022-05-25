@@ -104,7 +104,7 @@ function loop() {
     context.fillRect(cell.x-3, cell.y-3, grid-1, grid-1);
   
     // snake ate apple
-    if (cell.x === apple.x && cell.y === apple.y) {
+    if (cell.x === apple.x && cell.y === apple.y){
         
         currentScore += currentTime*10;
         currentTime = startTime;
@@ -120,15 +120,10 @@ function loop() {
         apple.x = getRandomInt(0, 25) * grid;
         apple.y = getRandomInt(0, 25) * grid;
     }
-    if (cell.x === blocks.x && cell.y === blocks.y) {
-        if (e.which === 37 && snake.dx === 0);{
-            snake.dx = grid;
-            snake.dy = 0;
-        }
-        if (e.which === 38 && snake.dy === 0) {
-            snake.dy = -grid;
-            snake.dx = 0;
-    }
+    if (cell.x === blocks.x && cell.y === blocks.y){
+
+            snake.cells = [];
+
         
     }
     if (cell.x === teleport.x && cell.y === teleport.y) {
@@ -213,5 +208,5 @@ document.addEventListener('keydown', function(e) {
   }
 });
 
-requestAnimationFrame(loop());
+requestAnimationFrame(loop);
     

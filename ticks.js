@@ -1,6 +1,6 @@
 
 const timer = document.querySelector('.timer');
-const startTime = 10;
+const startTime = 50;
 const endTime = -1;
 let currentTime = startTime - 1;
 timer.textContent = startTime;
